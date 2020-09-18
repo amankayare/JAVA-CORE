@@ -11,7 +11,9 @@ public class Question4 {
         byte one = 2;
         byte two = 3;
 
-        byte three = Byte.valueOf( one+two);
+        byte three = (byte)(one+two);
 
+        System.out.println("Addition is: "+three);
     }
 }
+
