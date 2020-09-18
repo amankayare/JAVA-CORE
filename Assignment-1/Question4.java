@@ -13,7 +13,7 @@ public class Question4 {
 
         byte three = (byte)(one+two);
 
-        System.out.println("Addition is: "+three);
+        System.out.println("Addition of two byte values is: "+three);
     }
 }
 
