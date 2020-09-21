@@ -19,5 +19,6 @@ public class Question8 {
         float time = sc.nextFloat();
 
         System.out.println("SIMPLE INTEREST: "+principle*(1 + rate*time));
+        sc.close();
     }
 }

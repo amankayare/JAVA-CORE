@@ -25,6 +25,6 @@ public class Question7 {
          */
         System.out.println("SUM: "+sum);
         System.out.println("percentage marks = "+(sum*100)/500+" %");
-
+        sc.close();
     }
 }

@@ -36,6 +36,6 @@ public class Question12 {
             System.out.println("GROSS SALARY: "+ (basic + da + hra));
 
         }
-
+        sc.close();
     }
 }

@@ -7,26 +7,22 @@ import java.util.Scanner;
 public class Question14 {
     public static void main(String[] args) {
         System.out.println("Enter a year");
+        Scanner sc = new Scanner(System.in);
+        int year = sc.nextInt();
 
-        int year = new Scanner(System.in).nextInt();
+        if (year % 4 == 0) {
 
-        if(year%4==0){
-
-
-            if( year%100!=0 || year%400==0 ){
+            if (year % 100 != 0 || year % 400 == 0) {
                 System.out.println("IS A LEAP YEAR");
-            }
-            else{
+            } else {
                 System.out.println("NOT A LEAP YEAR");
 
             }
-           
-    
-        } else{
+
+        } else {
             System.out.println("NOT A LEAP YEAR");
 
         }
-
-
+        sc.close();
     }
 }

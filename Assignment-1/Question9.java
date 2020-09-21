@@ -28,5 +28,6 @@ public class Question9 {
 
         System.out.println("YEAR: " + year + " MONTH: " + month + " DAYS: " + day);
 
+        sc.close();
     }
 }

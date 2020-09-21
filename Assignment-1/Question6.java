@@ -19,6 +19,7 @@ public class Question6 {
         
         System.out.println("CIRCLE AREA: "+ 3.14*(radius*radius));
         System.out.println("CIRCLE PARAMETER: "+ 2*3.14*radius);
+        sc.close();
 
     }
 }

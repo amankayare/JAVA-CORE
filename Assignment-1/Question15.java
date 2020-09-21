@@ -27,6 +27,7 @@ public class Question15 {
             System.out.println("NOT ELIGIBLE");
 
         }
+        sc.close();
     }
 
 }

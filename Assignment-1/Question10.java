@@ -13,5 +13,6 @@ public class Question10 {
         Scanner sc = new Scanner(System.in);
         float fah = sc.nextFloat();
         System.out.println("TEMPRETURE IN CELSIUS: "+ 5*(fah-32)/9);
+        sc.close();
     }
 }
