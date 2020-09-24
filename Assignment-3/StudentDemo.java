@@ -36,7 +36,3 @@ class StudentDemo {
         student.showData();
     }
 }
-
-public class Question31 {
-
-}
